@@ -1,0 +1,11 @@
+{
+	"restartable": "rs",
+	"verbose": false,
+	"watch": ["src", "test", "server.js"],
+	"ext": "js",
+	"exec": "eslint src/** test/** && babel-node server.js",
+	"env": {
+		"NODE_ENV": "development",
+		"NODE_PATH": "src"
+	}
+}

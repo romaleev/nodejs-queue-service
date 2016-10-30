@@ -1,0 +1,29 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+	"es6": true
+  },
+  "plugins": [
+		"json"
+  ],
+  "ecmaFeatures": {
+	"classes": true
+  },
+  "rules": {
+    "quotes": [2, "single"],
+    "eol-last": 0,
+    "strict": 1,
+    "curly": 0,
+	"no-unreachable": 2,
+    "no-fallthrough": 1,
+    "no-unused-vars": [2, {"vars": "all", "args": "none"}],
+    "no-undef": 2,
+    "no-irregular-whitespace": 2,
+    "no-invalid-regexp": 2,
+    "comma-dangle": [2, "never"],
+    "no-redeclare": 2,
+    "no-mixed-spaces-and-tabs": 2,
+    "no-underscore-dangle": 0,
+  }
+}

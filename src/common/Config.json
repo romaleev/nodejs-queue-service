@@ -1,0 +1,7 @@
+{
+	"host": "localhost",
+	"port": 8080,
+	"api": "http://localhost:8080",
+	"apiTimeout": 500,
+	"queueLimit": 5
+}
