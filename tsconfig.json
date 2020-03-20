@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"allowUnreachableCode": false,
+		"esModuleInterop": true,
+		"allowJs": false,
+		"declaration": false,
+		"baseUrl": "./src",
+		"outDir": "./build",
+		"lib": [
+			"dom",
+			"es2017"
+		],
+		"moduleResolution": "node",
+		"module": "commonjs",
+		"resolveJsonModule": true,
+		"target": "es2017",
+		"noUnusedLocals": true,
+		"noUnusedParameters": true
+	},
+	"include": [
+		"server.ts"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

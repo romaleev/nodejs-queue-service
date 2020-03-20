@@ -1,9 +1,9 @@
 {
 	"restartable": "rs",
 	"verbose": false,
-	"watch": ["src", "test", "server.js"],
-	"ext": "js",
-	"exec": "eslint src/** test/** && babel-node server.js",
+	"watch": ["src", "test", "server.ts", "tsconfig.json"],
+	"ext": "ts",
+	"exec": "tslint src test && ts-node -T -P tsconfig.json server",
 	"env": {
 		"NODE_ENV": "development",
 		"NODE_PATH": "src"

@@ -43,13 +43,13 @@ Tech stack:
 
 ## Running
 
-Build for production:
-
-	npm run prod
-
 Run in development mode:
 
-	npm run dev
+	npm start
+
+Build for production:
+
+	npm run build
 
 Following urls would be available:
 
@@ -63,7 +63,7 @@ Following urls would be available:
 
 Test:
 
-	npm run prod
+	npm start
 	npm test
 
 ## Questions
